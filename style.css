@@ -1,0 +1,60 @@
+#myid,myid1{
+    width: 180px;
+    height: 120px;
+    
+}
+#center{
+    margin: auto;
+    width: 80%;
+    border: 3px solid red;
+    padding: 10px;
+    border-radius: 10px;
+}
+.box{ animation:rotate 3s infinite;}
+@keyframes rotate{
+    0%{ transform: rotate(0deg);}
+    100%{ transform: rotate(360deg);}
+}
+.box1{ animation:pulse 2s infinite;}
+@keyframes pulse{
+    0%,100%{transform:scale(1);}
+    50%{transform: scale(1.2);}
+}
+.box2{ animation:slidein 2s infinite;}
+@keyframes slidein{
+    0%{transform: translate(-40%);}
+    50%{transform: translate(0);}
+    100%{transform: translate(50%);}
+}
+.box3{ animation: fadein 3s infinite;}
+@keyframes fadein{
+    0%{opacity: 0;}
+    50%{ opacity: 4;}
+    100%{opacity: 0;}
+}
+.box4{ animation: bounce 3s infinite;}
+@keyframes bounce{
+    0%{transform: translatey(0);}
+    40%{transform: translatey(-20px);}
+    60%{transform: translatey(-10px)}
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 60px;
+    text-decoration-line: underline;
+    text-shadow: 1px 1px #FF0000;
+}
+
+.india{
+    background-color:burlywood;
+    font-size: 20px;
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+    color: maroon;
+    margin-top: 30px;
+}
+
+
